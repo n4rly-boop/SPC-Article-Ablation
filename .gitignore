@@ -7,10 +7,8 @@ venv/
 
 *.log
 
-report/*.aux
-report/*.fls
-report/*.fdb_latexmk
-report/*.synctex.gz
-report/*.out
+report/*
+!report/*.pdf
+report.md
 
 spc_probe_outputs.jsonl
